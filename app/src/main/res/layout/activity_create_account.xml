@@ -129,7 +129,7 @@
                 android:layout_marginTop="@dimen/editText_margin_createaccount">
 
                 <RadioButton
-                    android:id="@+id/rdi_despacho_variante"
+                    android:id="@+id/rdi_male_gender"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
@@ -137,7 +137,7 @@
                     android:text="@string/hint_masculino" />
 
                 <RadioButton
-                    android:id="@+id/rdi_despacho_terminal"
+                    android:id="@+id/rdi_female_gender"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
@@ -145,6 +145,22 @@
 
             </RadioGroup>
 
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_margin_createaccount"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/credit_card_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
