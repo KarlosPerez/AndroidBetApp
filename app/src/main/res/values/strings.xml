@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidBetApp</string>
+
+    <string name="hint_welcome_back">Welcome Back</string>
+    <string name="hint_sign_in">Sign In Into Your Account</string>
+    <string name="hint_sign_in_title">Sign In</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_reset_password">Reset My Password</string>
+    <string name="hint_singup">Create an Account</string>
+
+    //Create Account Strings
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_button_createaccount">Join Us</string>
+    <string name="toolbar_title_createaccount">Create Account</string>
+    <string name="phoneNumber">Phone</string>
+    <string name="birthDate">Birth Date</string>
+    <string name="hint_masculino">Male</string>
+    <string name="hint_femenino">Female</string>
+    <string name="hint_gender">Gender</string>
+
+</resources>
