@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -20,6 +21,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                 txtUserPassword, txtUserCard, txtUserPasswordConfirm;
     DatePicker dtUserBirthDate;
     RadioButton rdiMaleGender, rdiFemaleGender;
+    Button btnRegister;
 
     Calendar calendar;
 
@@ -45,6 +47,7 @@ public class CreateAccountActivity extends AppCompatActivity {
             return;
         } else {
             Toast.makeText(this, "El Email no es válido", Toast.LENGTH_SHORT).show();
+            txtUserEmail.setText("");
         }
     }
 
@@ -62,6 +65,8 @@ public class CreateAccountActivity extends AppCompatActivity {
         rdiFemaleGender = findViewById(R.id.rdi_male_gender);
 
         dtUserBirthDate = findViewById(R.id.dateOfBirthInput);
+
+        btnRegister = findViewById(R.id.joinUs);
 
     }
 
